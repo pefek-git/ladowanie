@@ -98,7 +98,7 @@ BODY
 	100% { content: '...'; }
 }
 
-#background_video {
+.background {
 	position: fixed;
 	inset: 0;
 	width: 100%;
