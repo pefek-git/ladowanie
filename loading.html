@@ -10,7 +10,7 @@
 				<source src="Noweintro_.mp4" type="video/mp4">
 			</video>
 
-			<audio id=music>
+			<audio id="music" autoplay loop>
 				<source src="windows-sever-2003-uk-startup-sound.mp3">
 			</audio>
 			<div id="container">
@@ -27,6 +27,8 @@
 			</div>
 
 			<div class="server_info">
+				const music = document.getElementById("music")
+				music.volume = 0.5;
 				<img id="mapimg" src="asset://mapimage/invalid_map" />
 				<div class="text">
 					<div id="serverName">A really long server name will be here that will be too long to fit on the loading screen</div>
