@@ -20,7 +20,7 @@ BODY
 }
 #background
 {
-	background-img: url("https://cdn.dribbble.com/userupload/19445350/file/original-d3c1a1167b18464e2eff6622d09f2dc8.gif");
+	background-img: url("background.gif");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
