@@ -126,6 +126,7 @@ BODY
 	background-image: url( 'img/bg.gif' );
 	background-size: 100% 100%;
 	height: 100%;
+	z-index: -1;
 }
 body.dark #background
 {
